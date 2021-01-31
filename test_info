@@ -1,0 +1,8 @@
+proc sql;
+create table test as
+select *
+from sashelp.cars;
+quit;
+
+
+
